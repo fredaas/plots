@@ -7,6 +7,8 @@ set output 'out_main.pdf'
 set samples 1000
 set xtic 5
 
+set fit quiet
+
 plot 'data.dat' notitle,             \
      '' smooth csplines title 'f(x)' \
 

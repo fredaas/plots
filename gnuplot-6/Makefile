@@ -1,5 +1,5 @@
 all :
-	gnuplot limits.gp
+	gnuplot plot.gp
 
 clean :
 	rm -f *.pdf

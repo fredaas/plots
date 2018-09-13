@@ -1,5 +1,5 @@
 all :
-	gnuplot bars.gp
+	gnuplot plot.gp
 
 clean :
 	rm -f *.pdf
