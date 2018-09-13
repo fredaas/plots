@@ -14,7 +14,7 @@ set logscale x 2
 set xlabel 'Operational Intensity (FLOPs/byte)'
 set ylabel 'Attainable GFLOPs/second'
 set title  'Roofline Model'
-set output 'roofline.pdf'
+set output 'out_roofline.pdf'
 
 P_max = 17.6 # FLOP theoretical max (FLOPs/second).
 M_max = 15   # DRAM theoretical max (bytes/second).
