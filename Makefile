@@ -8,6 +8,7 @@ all :
 	$(MAKE) -C gnuplot-5
 	$(MAKE) -C gnuplot-6
 	$(MAKE) -C gnuplot-7
+	$(MAKE) -C gnuplot-8
 
 clean :
 	$(MAKE) clean -C gnuplot-1 
@@ -17,3 +18,4 @@ clean :
 	$(MAKE) clean -C gnuplot-5
 	$(MAKE) clean -C gnuplot-6
 	$(MAKE) clean -C gnuplot-7
+	$(MAKE) clean -C gnuplot-8
