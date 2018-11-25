@@ -22,8 +22,8 @@ set ylabel 'Speedup'
 # set output 'out_speedup.pdf'
 
 plot 'speedup.dat' u ($2 - 1):xtic(1) ls 1 title 'SDP', \
-     '' u ($3 - 1):xtic(1) ls 1 title 'RPT', \
-     '' u ($4 - 1):xtic(1) ls 1 title 'GHB PC/CS', \
+     '' u ($3 - 1):xtic(1) ls 1 t 'RPT', \
+     '' u ($4 - 1):xtic(1) ls 1 t 'GHB PC/CS', \
 
 set ytics 0,0.1,1
 
@@ -32,13 +32,13 @@ set ylabel 'Accuracy'
 # set output 'out_accuracy.pdf'
 
 plot 'accuracy.dat' u 2:xtic(1) ls 1 title 'SDP', \
-     '' u 3:xtic(1) ls 1 title 'RPT', \
-     '' u 4:xtic(1) ls 1 title 'GHB PC/CS', \
+     '' u 3:xtic(1) ls 1 t 'RPT', \
+     '' u 4:xtic(1) ls 1 t 'GHB PC/CS', \
 
 set yrange [0:1]
 set ylabel 'Coverage'
 # set output 'out_coverage.pdf'
 
 plot 'coverage.dat' u 2:xtic(1) ls 1 title 'SDP', \
-     '' u 3:xtic(1) ls 1 title 'RPT', \
-     '' u 4:xtic(1) ls 1 title 'GHB PC/CS', \
+     '' u 3:xtic(1) ls 1 t 'RPT', \
+     '' u 4:xtic(1) ls 1 t 'GHB PC/CS', \

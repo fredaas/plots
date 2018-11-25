@@ -26,7 +26,7 @@ plot newhistogram 'TITLE 1' offset 0,-1 fs patter 1, \
      '' u 3            ls 3 t 'C', \
      '' u 4:xtic(1)    ls 4 t 'D', \
      newhistogram 'TITLE 2' offset 0,-1 fs patter 1, \
-     'values2.dat' u 2 ls 1 notitle, \
-     '' u 2            ls 2 notitle, \
-     '' u 3            ls 3 notitle, \
-     '' u 4:xtic(1)    ls 4 notitle
+     'values2.dat' u 2 ls 1 t '', \
+     '' u 2            ls 2 t '', \
+     '' u 3            ls 3 t '', \
+     '' u 4:xtic(1)    ls 4 t ''
