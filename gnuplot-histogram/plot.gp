@@ -1,4 +1,4 @@
-set terminal pdf enhanced size 5,3 font 'Courier'
+set terminal pdf enhanced size 5,3 font 'courier'
 set loadpath 'data'
 set xtic rotate by 45 right offset 0.5,0
 set style data histogram

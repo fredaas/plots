@@ -1,4 +1,4 @@
-set terminal pdf enhanced size 4,3 font 'Courier'
+set terminal pdf enhanced size 4,3 font 'courier'
 set size 1,1
 set style data histogram
 set style histogram rowstack gap 1

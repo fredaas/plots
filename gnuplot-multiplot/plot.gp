@@ -1,4 +1,4 @@
-set terminal pdf enhanced size 5,3 font "Courier"
+set terminal pdf enhanced size 5,3 font 'courier'
 set xlabel 'X'
 set ylabel 'Y'
 set xrange [-10:10]
@@ -38,4 +38,4 @@ unset key
 set title 'Multiple'
 plot [-1:] \
     for [i = 1 : 3] (4 - i) * sin(x * i) * exp(-x * i * 0.2), \
-    for [i = 1 : 3] -(4 - i) * sin(x * i) * exp(-x * i * 0.2) 
+    for [i = 1 : 3] -(4 - i) * sin(x * i) * exp(-x * i * 0.2)

@@ -1,4 +1,4 @@
-set terminal pdf enhanced size 3,3 font 'Courier'
+set terminal pdf enhanced size 3,3 font 'courier'
 set size 1,1
 set loadpath 'data'
 set xtic rotate by 0 right offset 0.5,0
