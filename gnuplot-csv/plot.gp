@@ -16,4 +16,5 @@ set xlabel 'Time (us)'
 
 set datafile separator ';'
 plot 'data.csv' u 1:2 title 'Current (mA)', \
-     'data.csv' u 1:3 title 'Voltage (V)'
+     ''         u 1:3 title 'Voltage (V)', \
+     ''         u 1:($2 * $3) title 'Power (mW)'
